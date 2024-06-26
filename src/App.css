@@ -1,0 +1,73 @@
+body{
+  margin: top;
+  padding: top;
+  text-align: center;
+  background-color: #A9A9A9 ;
+}
+
+.container{
+  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 24, 14);
+  border: 1px solid black;
+  border-radius: 14px;
+   cursor: pointer; 
+  backface-visibility: hidden;
+  transform: translate(0);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgb(247, 5, 5) 0px 3px 1px, rgba(251, 3, 3, 0.984) 0px 6px 2px, rgb(240, 3, 3) 0px 8px 4px, rgb(251, 2, 2) 0px 32px 16px;
+
+}
+.card-list{
+ 
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+
+}
+.search-input {
+  width: 300px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Style for the placeholder text */
+.search-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Focus state for the search input */
+.search-input:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.search-input-wrapper {
+  position: relative;
+}
+.content{
+  color: #fff8f8;
+  font-family:monospace;
+  text-shadow: 2px 2px 5px red;
+}
+h1{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px red;
+  
+}
+h1:hover{
+  color: rgba(251, 253, 253, 0.988);
+  
+}
+.content:hover{
+  color: rgb(249, 249, 6);
+}
